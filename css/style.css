@@ -1,7 +1,206 @@
-body {
+:root {
+    /* Default Box-Model values */
+    --default_Padding: 1%;
+    --default_Border: 3px;
+    --default_Margin: 1%;
+
+    /* Page outer dimensions */
+    --outerBorderTop_Size: 5vh;
+    --outerBorderSide_Size: 3vw;
+    --outerPage_Width: calc(100vw - 2 * var(--outerBorderSide_Size));
+
+    /* Page inner dimensions */
+    --innerBorderTop_Size: 5vh;
+    --innerPage_Width: 80vw;
+
+    /* header variables */
+    --headerNavList_Padding: 1vw;
+
+    /* main variables */
+    --mainHeader_Height: 30vh;
+    --mainHeader_Width: var(--outerPage_Width);
+    --mainHeaderImage_Height: calc(0.6 * var(--mainHeader_Height));
+
 
 }
 
-p {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 
+}
+
+/* ---------------------------------------------------------------------------------------------
+   ------------------------------------------ HEADER -------------------------------------------
+   --------------------------------------------------------------------------------------------- */
+body > header {
+    height: 100px;
+}
+
+body > header > nav {
+    background-color: rgb(70, 70, 70);
+    vertical-align: middle;
+    text-align: center;
+    padding: var(--default_Padding);
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    background-color: rgb(70, 70, 70);
+    padding-left: var(--headerNavList_Padding);
+    padding-right: var(--headerNavList_Padding);
+}
+
+header > nav > ul > li > a {
+    color: white;
+}
+
+/* ---------------------------------------------------------------------------------------------
+   ------------------------------------------ MAIN ---------------------------------------------
+   --------------------------------------------------------------------------------------------- */
+
+/* -------------------------------------------------------------
+   ----------------------- MAIN HEADER -------------------------
+   ------------------------------------------------------------- */
+
+main > header {
+    position: relative;
+    height: var(--mainHeader_Height);
+    width: var(--mainHeader_Width);
+    background-color: cornflowerblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main > header > section {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    height: var(--mainHeader_Height);
+    width: var(--innerPage_Width);
+    min-height: 120px;
+    background: rgba(8, 1, 1, 0.726);
+    z-index: 1;
+}
+
+main > header > section > h1 {
+    position: relative;
+    left: 1%;
+    top: 20%;
+    color: white;
+    width: calc(0.75 * var(--innerPage_Width));
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+main > header > section > ul {
+    position: relative;
+    left: 3%;
+    top: 20%;
+    color: lightgray;
+    width: calc(0.75 * var(--innerPage_Width));
+    font-size: 1em;
+}
+
+main > header > section > img {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    width: var(--mainHeaderImage_Height);
+    z-index: 2;
+}
+
+
+
+/* -------------------------------------------------------------
+   ----------------------- MAIN ARTICLE ------------------------
+   ------------------------------------------------------------- */
+main > article {
+    position: relative;
+    border-top: solid var(--innerBorderTop_Size) white;
+    width: var(--innerPage_Width);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main > article > section {
+    position: relative;
+    margin: calc(3 * var(--default_Margin));
+}
+
+main > article > section > h2 {
+    position: relative;
+    padding: var(--default_Padding);
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+main > article > section > div {
+    position: relative;
+    margin: var(--default_Margin);
+}
+
+main > article > section > div > h3 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: calc(0.5 * var(--default_Padding));
+}
+
+main > article > section > div > ul {
+    position: relative;
+    margin-left: calc(3 * var(--default_Margin));
+    padding: var(--default_Padding);
+}
+
+/* -------------------------------------------
+   --------- MAIN ARTICLE FOOTER -------------
+   ------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------
+   -------------------------------------- CLASS SELECTORS --------------------------------------
+   --------------------------------------------------------------------------------------------- */
+.date_right {
+    position: relative;
+    float: right;
+
+}
+
+/* ---------------------------------------------------------------------------------------------
+   ------------------------------------- GENERIC SELECTORS -------------------------------------
+   --------------------------------------------------------------------------------------------- */
+a {
+    font-weight: bold;
+}
+
+sup > a {
+    color: yellow;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------------------------------
+   ------------------------------------- UNIVERSAL SELECTOR ------------------------------------
+   --------------------------------------------------------------------------------------------- */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
