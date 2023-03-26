@@ -8,6 +8,389 @@
         <title>TECH1101 - Project - HTML Sheet Page</title>
     </head>
     <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Resume Page</a></li>
+                    <li><a href="./html_sheet_page.html">HTML Sheet Page</a></li>
+                    <li><a href="./css_sheet_page.html">CSS Sheet Page</a></li>
+                    <li><a href="./js_sheet_page.html">Javascript Sheet Page</a></li>
+                    <li><a href="./hobbies_page.html">Hobbies Page</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <article>
+                <h1>HTML Sheet Page</h1>
+                <section>
+                    <h4><strong>Basic Tags</strong></h4>
+
+                    <div>
+                        <h5>&lthtml&gt &lt/html&gt</h5>
+                        <p>Creates an HTML document</p>
+                    </div>
+                    <div>
+                        <h5>&lthead&gt &lt/head&gt</h5>
+                        <p>Sets off the title & other info that isn't displayed</p>
+                    </div>
+                    <div>
+                        <h5>&lttitle&gt &lt/title&gt</h5>
+                        <p>Puts name of the document in the title bar; when bookmarking pages, this is what is bookmarked</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Body attributes</strong> (only used in email newsletters)</h4>
+                    <div>
+                        <h5>&ltbody bgcolor=?&gt</h5>
+                        <p>Sets background color, using name or hex value</p>
+                    </div>
+                    <div>
+                        <h5>&ltbody text=?&gt</h5>
+                        <p>Sets text color, using name or hex value</p>
+                    </div>
+                    <div>
+                        <h5>&ltbody link=?&gt</h5>
+                        <p>Sets color of links, using name or hex value</p>
+                    </div>
+                    <div>
+                        <h5>&ltbody vlink=?&gt</h5>
+                        <p>Sets color of visited links, using name or hex value</p>
+                    </div>
+                    <div>
+                        <h5>&ltbody alink=?&gt</h5>
+                        <p>Sets color of active links (while mouse-clicking)</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Text Tags</strong></h4>
+                    <div>
+                        <h5>&ltpre&gt &lt/pre&gt</h5>
+                        <p>Creates preformatted text</p>
+                    </div>
+                    <div>
+                        <h5>&lth1&gt &lt/h1&gt --&gt &lth6&gt &lt/h6&gt</h5>
+                        <p>Creates headlines -- H1=largest, H6=smallest</p>
+                    </div>
+                    <div>
+                        <h5>&ltb&gt &lt/b&gt</h5>
+                        <p>Creates bold text (should use &ltstrong&gt instead)</p>
+                    </div>
+                    <div>
+                        <h5>&lti&gt &lt/i&gt</h5>
+                        <p>Creates italicized text (should use &ltem&gt instead)</p>
+                    </div>
+                    <div>
+                        <h5>&lttt&gt &lt/tt&gt</h5>
+                        <p>Creates typewriter-style text</p>
+                    </div>
+                    <div>
+                        <h5>&ltcode&gt &lt/code&gt</h5>
+                        <p>Used to define source code, usually monospace</p>
+                    </div>
+                    <div>
+                        <h5>&ltcite&gt &lt/cite&gt</h5>
+                        <p>Creates a citation, usually processed in italics</p>
+                    </div>
+                    <div>
+                        <h5>&ltaddress&gt &lt/address&gt</h5>
+                        <p>Creates address section, usually processed in italics</p>
+                    </div>
+                    <div>
+                        <h5>&ltem&gt &lt/em&gt</h5>
+                        <p>Emphasizes a word (usually processed in italics)</p>
+                    </div>
+                    <div>
+                        <h5>&ltstrong&gt &lt/strong&gt</h5>
+                        <p>Emphasizes a word (usually processed in bold)</p>
+                    </div>
+                    <div>
+                        <h5>&ltfont size=?&gt &lt/font&gt</h5>
+                        <p>Sets size of font - 1 to 7 (should use CSS instead)</p>
+                    </div>
+                    <div>
+                        <h5>&ltfont face=?&gt &lt/font&gt</h5>
+                        <p>Defines the font used (should use CSS instead)</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Links</strong></h4>
+                    <div>
+                        <h5>&lta href="URL"&gt clickable text &lt/a&gt</h5>
+                        <p>Creates a hyperlink to a <abbr title="Uniform Resource Locator">URL</abbr></p>
+                    </div>
+                    <div>
+                        <h5>&lta href="mailto:EMAIL_ADDRESS"&gt clickable text &lt/a&gt</h5>
+                        <p>Creates a hyperlink to an email address</p>
+                    </div>
+                    <div>
+                        <h5>&lta name="NAME"&gt</h5>
+                        <p>Creates a target location within a document</p>
+                    </div>
+                    <div>
+                        <h5>&lta href="# NAME"&gt clickable text &lt/a&gt</h5>
+                        <p>Creates a link to that target location</p>
+                    </div>
+                </section>
+                
+                <section>
+                    <h4><strong>Formatting</strong></h4>
+                    <div>
+                        <h5>&ltp&gt &lt/p&gt</h5>
+                        <p>Creates a new paragraph</p>
+                    </div>
+                    <div>
+                        <h5>&ltbr&gt</h5>
+                        <p>Inserts a line break (carriage return)</p>
+                    </div>
+                    <div>
+                        <h5>&ltblockquote&gt &lt/blockquote&gt</h5>
+                        <p>Puts content in a quote - indents text from both sides</p>
+                    </div>
+                    <div>
+                        <h5>&ltdiv&gt &lt/div&gt</h5>
+                        <p>Used to format block content with <abbr title="Cascading Style Sheets">CSS</abbr></p>
+                    </div>
+                    <div>
+                        <h5>&ltspan&gt &lt/span&gt</h5>
+                        <p>Used to format inline content with <abbr title="Cascading Style Sheets">CSS</abbr></p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Lists</strong></h4>
+                    <div>
+                        <h5>&ltul&gt &lt/ul&gt</h5>
+                        <p>Creates an unordered list</p>
+                    </div>
+                    <div>
+                        <h5>&ltol start=?&gt &lt/ol&gt</h5>
+                        <p>Creates an ordered list (start=xx, where xx is a counting number)</p>
+                    </div>
+                    <div>
+                        <h5>&ltli&gt &lt/li&gt</h5>
+                        <p>Encompasses each list item</p>
+                    </div>
+                    <div>
+                        <h5>&ltdl&gt &lt/dl&gt</h5>
+                        <p>Creates a definition list</p>
+                    </div>
+                    <div>
+                        <h5>&ltdt&gt</h5>
+                        <p>Precedes each defintion term</p>
+                    </div>
+                    <div>
+                        <h5>&ltdd&gt</h5>
+                        <p>Precedes each defintion</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Graphical elements</strong></h4>
+                    <div>
+                        <h5>&lthr&gt</h5>
+                        <p>Inserts a horizontal rule</p>
+                    </div>
+                    <div>
+                        <h5>&lthr size=?&gt</h5>
+                        <p>Sets size (height) of horizontal rule</p>
+                    </div>
+                    <div>
+                        <h5>&lthr width=?&gt</h5>
+                        <p>Sets width of rule (as a % or absolute pixel length)</p>
+                    </div>
+                    <div>
+                        <h5>&lthr noshade&gt</h5>
+                        <p>Creates a horizontal rule without a shadow</p>
+                    </div>
+                    <div>
+                        <h5>&ltimg src="URL"&gt</h5>
+                        <p>Adds image; it is a separate file located at the <abbr title="Uniform Resource Locator">URL</abbr></p>
+                    </div>
+                    <div>
+                        <h5>&ltimg src="URL" align=?&gt</h5>
+                        <p>Aligns image left/right/center/bottom/top/middle (use <abbr title="Cascading Style Sheets">CSS</abbr>)</p>
+                    </div>
+                    <div>
+                        <h5>&ltimg src="URL" border=?&gt</h5>
+                        <p>Sets size of border surrounding image (use <abbr title="Cascading Style Sheets">CSS</abbr>)</p>
+                    </div>
+                    <div>
+                        <h5>&ltimg src="URL" height=?&gt</h5>
+                        <p>Sets height of image, in pixels</p>
+                    </div>
+                    <div>
+                        <h5>&ltimg src="URL" width=?&gt</h5>
+                        <p>Sets width of image, in pixels</p>
+                    </div>
+                    <div>
+                        <h5>&ltimg src="URL" alt=?&gt</h5>
+                        <p>Sets the alternate text for browsers that can't process images (required by the <abbr title="Americans with Disabilities Act">ADA</abbr>)</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Forms</strong></h4>
+                    <div>
+                        <h5>&ltform&gt &lt/form&gt</h5>
+                        <p>Defines a form</p>
+                    </div>
+                    <div>
+                        <h5>&ltselect multiple name=? size=?&gt &lt/select&gt</h5>
+                        <p>Creates a scrolling menu. Size sets the number of menu items visible before user needs to scroll.</p>
+                    </div>
+                    <div>
+                        <h5>&ltselect name=?&gt &lt/select&gt</h5>
+                        <p>Creates a pulldown menu</p>
+                    </div>
+                    <div>
+                        <h5>&ltoption&gt</h5>
+                        <p>Sets off each menu item</p>
+                    </div>
+                    <div>
+                        <h5>&lttextarea name=? cols="x" rows="y"&gt &lt/textarea&gt</h5>
+                        <p>Creates a text box area. Columns set the width; rows set the height.</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="checkbox" name=? value=?&gt</h5>
+                        <p>Creates a checkbox</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="checkbox" name=? value=? checked&gt</h5>
+                        <p>Creates a checkbox which is pre-checked</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="radio" name=? value=?&gt</h5>
+                        <p>Creates a radio button</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="radio" name=? value=? checked&gt</h5>
+                        <p>Creates a radio button which is pre-checked</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="text" name=? size=?&gt</h5>
+                        <p>Creates a one-line text area. Size sets length, in characters</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="submit" value=?&gt</h5>
+                        <p>Creates a submit button. Value sets the text in the submit button</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="image" name=? src=? border=? alt=?&gt</h5>
+                        <p>Creates a submit button using an image</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="reset"&gt</h5>
+                        <p>Creates a reset button</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Tables</strong> (use only for data layout - use CSS for page layout)</h4>
+                    <div>
+                        <h5>&lttable&gt &lt/table&gt</h5>
+                        <p>Creates a table</p>
+                    </div>
+                    <div>
+                        <h5>&lttr&gt &lt/tr&gt</h5>
+                        <p>Sets off each row in a table</p>
+                    </div>
+                    <div>
+                        <h5>&lttd&gt &lt/td&gt</h5>
+                        <p>Sets off each cell in a row</p>
+                    </div>
+                    <div>
+                        <h5>&ltth&gt &lt/th&gt</h5>
+                        <p>Sets off the table header (a normal cell with bold, centered text)</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>HTML5 input tag attributes</strong></h4>
+                    <div>
+                        <h5>&ltinput type="email" name=?&gt</h5>
+                        <p>Sets a single-line textbox for email addresses</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="url" name=?&gt</h5>
+                        <p>Sets a single-line textbox for <abbr title="Uniform Resource Locator">URLs</abbr></p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="number" name=?&gt</h5>
+                        <p>Sets a single-line textbox for a number</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="range" name=?&gt</h5>
+                        <p>Sets a single-line text box for a range of numbers</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="date/month/week/time" name=?&gt</h5>
+                        <p>Sets a single-line text box with a calendar showing the date/month/week/time</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="search" name=?&gt</h5>
+                        <p>Sets a single-line text box for searching</p>
+                    </div>
+                    <div>
+                        <h5>&ltinput type="color" name=?&gt</h5>
+                        <p>Sets a single-line text box for picking a color</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Table attributes</strong> (only use for email newsletters)</h4>
+                    <div>
+                        <h5>&lttable border=?&gt</h5>
+                        <p>Sets the width of the border around table cells</p>
+                    </div>
+                    <div>
+                        <h5>&lttable cellspacing=?&gt</h5>
+                        <p>Sets amount of space between table cells</p>
+                    </div>
+                    <div>
+                        <h5>&lttable cellpadding=?&gt</h5>
+                        <p>Sets amount of space between a cell's border and its contents</p>
+                    </div>
+                    <div>
+                        <h5>&lttable width=?&gt</h5>
+                        <p>Sets width of the table in pixels or as a percentage</p>
+                    </div>
+                    <div>
+                        <h5>&lttr align=?&gt</h5>
+                        <p>Sets alignment for cells within the row (left/center/right)</p>
+                    </div>
+                    <div>
+                        <h5>&lttd align=?&gt</h5>
+                        <p>Sets alignment for cells (left/center/right)</p>
+                    </div>
+                    <div>
+                        <h5>&lttr valign=?&gt</h5>
+                        <p>Sets vertical alignment for cells within the row (top/middle/bottom)</p>
+                    </div>
+                    <div>
+                        <h5>&lttd valign=?&gt</h5>
+                        <p>Sets vertical alignment for cell (top/middle/bottom)</p>
+                    </div>
+                    <div>
+                        <h5>&lttd rowspan=?&gt</h5>
+                        <p>Sets number of rows a cell should span (default=1)</p>
+                    </div>
+                    <div>
+                        <h5>&lttd colspan=?&gt</h5>
+                        <p>Sets number of columns a cell should span</p>
+                    </div>
+                    <div>
+                        <h5>&lttd nowrap&gt</h5>
+                        <p>Prevents lines within a cell from being broken to fit</p>
+                    </div>
+                </section>
+
+            </article>
+        </main>
 
         <script src="./js/script.js"></script>
     </body>

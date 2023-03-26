@@ -1,7 +1,7 @@
 :root {
     /* Default Box-Model values */
     --default_Padding: 1%;
-    --default_Border: 3px;
+    --default_Border: 1px;
     --default_Margin: 1%;
 
     /* Page outer dimensions */
@@ -27,7 +27,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-
 }
 
 /* ---------------------------------------------------------------------------------------------
@@ -44,14 +43,14 @@ body > header > nav {
     padding: var(--default_Padding);
 }
 
-header > nav > ul > li {
+body > header > nav > ul > li {
     display: inline-block;
     background-color: rgb(70, 70, 70);
     padding-left: var(--headerNavList_Padding);
     padding-right: var(--headerNavList_Padding);
 }
 
-header > nav > ul > li > a {
+body > header > nav > ul > li > a {
     color: white;
 }
 
@@ -63,7 +62,7 @@ header > nav > ul > li > a {
    ----------------------- MAIN HEADER -------------------------
    ------------------------------------------------------------- */
 
-main > header {
+main > header > section {
     position: relative;
     height: var(--mainHeader_Height);
     width: var(--mainHeader_Width);
@@ -72,7 +71,7 @@ main > header {
     margin-right: auto;
 }
 
-main > header > section {
+main > header > section > div {
     position: relative;
     margin-right: auto;
     margin-left: auto;
@@ -83,7 +82,7 @@ main > header > section {
     z-index: 1;
 }
 
-main > header > section > h1 {
+main > header > section > div > h1 {
     position: relative;
     left: 1%;
     top: 20%;
@@ -93,16 +92,16 @@ main > header > section > h1 {
     text-transform: uppercase;
 }
 
-main > header > section > ul {
+main > header > section > div > ul {
     position: relative;
     left: 3%;
-    top: 20%;
+    top: 25%;
     color: lightgray;
     width: calc(0.75 * var(--innerPage_Width));
     font-size: 1em;
 }
 
-main > header > section > img {
+main > header > section > div > img {
     position: absolute;
     right: 5%;
     top: 50%;
@@ -137,15 +136,35 @@ main > article > section > h2 {
     font-size: 2em;
 }
 
+main > article > section > h4 {
+    position: relative;
+    padding: var(--default_Padding);
+    font-size: 1.5em;
+    background-color: grey;
+    margin-top: calc(4 * var(--default_Margin));
+    font-weight: 100;
+}
+
+main > article > section > h4 > strong {
+    text-transform: uppercase;
+}
+
 main > article > section > div {
     position: relative;
     margin: var(--default_Margin);
+    border-bottom: solid black var(--default_Border);
+    padding-top: var(--default_Padding);
 }
 
 main > article > section > div > h3 {
     position: relative;
     display: inline-block;
     padding-bottom: calc(0.5 * var(--default_Padding));
+}
+
+main > article > section > div > h5 {
+    font-size: 1em;
+    margin-top: var(--default_Margin);
 }
 
 main > article > section > div > ul {
@@ -172,6 +191,11 @@ main > article > section > div > ul {
 /* ---------------------------------------------------------------------------------------------
    ------------------------------------- GENERIC SELECTORS -------------------------------------
    --------------------------------------------------------------------------------------------- */
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
 a {
     font-weight: bold;
 }
@@ -182,18 +206,22 @@ sup > a {
 
 a:link {
     text-decoration: none;
+    color: gold;
 }
 
 a:visited {
     text-decoration: none;
+    color: gold;
 }
 
 a:hover {
     text-decoration: none;
+    color: darkmagenta;
 }
 
 a:active {
     text-decoration: none;
+    color: white;
 }
 
 /* ---------------------------------------------------------------------------------------------
