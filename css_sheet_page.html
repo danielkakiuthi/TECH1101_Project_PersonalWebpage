@@ -8,6 +8,463 @@
         <title>TECH1101 - Project - CSS Sheet Page</title>
     </head>
     <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Resume Page</a></li>
+                    <li><a href="./html_sheet_page.html">HTML Sheet Page</a></li>
+                    <li><a href="./css_sheet_page.html">CSS Sheet Page</a></li>
+                    <li><a href="./js_sheet_page.html">Javascript Sheet Page</a></li>
+                    <li><a href="./hobbies_page.html">Hobbies Page</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <article>
+                <h1>CSS Sheet Page</h1>
+                <section>
+                    <h4><strong>Selectors</strong></h4>
+                    <div>
+                        <h5>* {}</h5>
+                        <p>Universal Selector</p>
+                    </div>
+                    <div>
+                        <h5>#id {}</h5>
+                        <p>ID Selector</p>
+                    </div>
+                    <div>
+                        <h5>.class {}</h5>
+                        <p>Class Selector</p>
+                    </div>
+                    <div>
+                        <h5>h1, h2, h3 {}</h5>
+                        <p>Type Selector</p>
+                    </div>
+                    <div>
+                        <h5>h1 + p {}</h5>
+                        <p>Adjacent Sibling Selector</p>
+                    </div>
+                    <div>
+                        <h5>ul > li {}</h5>
+                        <p>Child Selector</p>
+                    </div>
+                    <div>
+                        <h5>h1 ~ {}</h5>
+                        <p>General Sibling Selector</p>
+                    </div>
+                    <div>
+                        <h5>p a {}</h5>
+                        <p>Descendant Selector</p>
+                    </div>
+                    <div>
+                        <h5>div[attribute="SomeValue"] {}</h5>
+                        <p>Attribute Selector</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Pseudo Selectors & Elements</strong></h4>
+                    <div>
+                        <h5>.class:link {}</h5>
+                        <p>Link Selector</p>
+                    </div>
+                    <div>
+                        <h5>.class::before {}</h5>
+                        <p>Before Element</p>
+                    </div>
+                    <div>
+                        <h5>.class::after {}</h5>
+                        <p>After Element</p>
+                    </div>
+                    <div>
+                        <h5>a:hover {}</h5>
+                        <p>Mouse Over Selector</p>
+                    </div>
+                    <div>
+                        <h5>a:active {}</h5>
+                        <p>Active Link Selector</p>
+                    </div>
+                    <div>
+                        <h5>a:visited {}</h5>
+                        <p>Visited Links Selector</p>
+                    </div>
+                    <div>
+                        <h5>input:focus {}</h5>
+                        <p>Focus Selector</p>
+                    </div>
+                    <div>
+                        <h5>input:checked {}</h5>
+                        <p>Checked Elements Selector</p>
+                    </div>
+                    <div>
+                        <h5>input:enabled {}</h5>
+                        <p>Enabled Elements Selector</p>
+                    </div>
+                    <div>
+                        <h5>input:disabled {}</h5>
+                        <p>Disabled Elements Selector</p>
+                    </div>
+                    <div>
+                        <h5>:not(p) {}</h5>
+                        <p>Not a Specific Element Selector</p>
+                    </div>
+                    <div>
+                        <h5>p::first-line {}</h5>
+                        <p>First Line Selector</p>
+                    </div>
+                    <div>
+                        <h5>p::first-letter {}</h5>
+                        <p>First Letter Selector</p>
+                    </div>
+                    <div>
+                        <h5>p:first-child {}</h5>
+                        <p>First Child Selector</p>
+                    </div>
+                    <div>
+                        <h5>p:last-child {}</h5>
+                        <p>Last Child Selector</p>
+                    </div>
+                    <div>
+                        <h5>p:only-child {}</h5>
+                        <p>Only Child Selector</p>
+                    </div>
+                    <div>
+                        <h5>p:nth-child() {}</h5>
+                        <p>Nth Child Selector</p>
+                    </div>
+                    <div>
+                        <h5>p:first-of-type {}</h5>
+                        <p>First Element of its Parent Selector</p>
+                    </div>
+                    <div>
+                        <h5>p:empty {}</h5>
+                        <p>Elements that have no Children Selector</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Text Styling</strong></h4>
+                    <div>
+                        <h5>font-style: normal | italic | oblique</h5>
+                        <p>Font Style</p>
+                    </div>
+                    <div>
+                        <h5>font-variant: normal | small-caps</h5>
+                        <p>Font Variant</p>
+                    </div>
+                    <div>
+                        <h5>font-weight: normal | bold | bolder | lighter | 100 - 900</h5>
+                        <p>Font Weight</p>
+                    </div>
+                    <div>
+                        <h5>vertical-align: baseline | 10px | sub | super | top | text-top | middle | bottom | text-bottom | initial</h5>
+                        <p>Vertical Alignment</p>
+                    </div>
+                    <div>
+                        <h5>text-transform: capitalise | lowercase | uppercase</h5>
+                        <p>Text Transform</p>
+                    </div>
+                    <div>
+                        <h5>font-size: 12px | 0.8em | 80%</h5>
+                        <p>Font Size</p>
+                    </div>
+                    <div>
+                        <h5>letter-spacing: normal | 4px</h5>
+                        <p>Space Between Characters</p>
+                    </div>
+                    <div>
+                        <h5>line-height: normal | 3em | 34%</h5>
+                        <p>Line Height</p>
+                    </div>
+                    <div>
+                        <h5>text-align: left | right | center | justify</h5>
+                        <p>Horizontal alignment</p>
+                    </div>
+                    <div>
+                        <h5>text-align-last: auto | left | right | center | justify | start | end | initial | inherit</h5>
+                        <p>Text Align Last</p>
+                    </div>
+                    <div>
+                        <h5>text-decoration: none | underline | overline | line-through</h5>
+                        <p>Text Decoration</p>
+                    </div>
+                    <div>
+                        <h5>text-indent: 25px</h5>
+                        <p>Indent First Line</p>
+                    </div>
+                    <div>
+                        <h5>font-family: 'Open Sans', sans-serif</h5>
+                        <p>Font Family</p>
+                    </div>
+                    <div>
+                        <h5>text-justify: auto | inter-word | inter-character | none | initial | inherit</h5>
+                        <p>Text Justify</p>
+                    </div>
+                    <div>
+                        <h5>text-overflow: clip | ellipsis | string | initial | inherit</h5>
+                        <p>Text Overflow</p>
+                    </div>
+                    <div>
+                        <h5>text-shadow: h-shadow v-shadow blur-radius color | none | initial | inherit</h5>
+                        <p>Text Shadow</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Position</strong></h4>
+                    <div>
+                        <h5>position: static | relative | absolute | fixed | sticky</h5>
+                        <p>Position</p>
+                    </div>
+                    <div>
+                        <h5>top | right | bottom | left</h5>
+                        <p>Position Properties</p>
+                    </div>
+                    <div>
+                        <h5>float: left | right | none</h5>
+                        <p>Float Element</p>
+                    </div>
+                    <div>
+                        <h5>clear: none | left | right | both</h5>
+                        <p>Clear Floating Elements</p>
+                    </div>
+                    <div>
+                        <h5>z-index: 3 | auto | inherit</h5>
+                        <p>Z Index</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Background</strong></h4>
+                    <div>
+                        <h5>background-image: url()</h5>
+                        <p>Background Image</p>
+                    </div>
+                    <div>
+                        <h5>background-repeat: repeat-x | repeat-y | repeat | space | round | no-repeat</h5>
+                        <p>Background Repeat</p>
+                    </div>
+                    <div>
+                        <h5>background-attachment: scroll | fixed | local | initial | inherit</h5>
+                        <p>Background Attachment</p>
+                    </div>
+                    <div>
+                        <h5>background-color: #2AA9E0</h5>
+                        <p>Background Color</p>
+                    </div>
+                    <div>
+                        <h5>background-position: top | right | bottom | left | center</h5>
+                        <p>Background Position</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Box Properties</strong></h4>
+                    <div>
+                        <h5>box-sizing: border-box | content-box</h5>
+                        <p>Box Sizing</p>
+                    </div>
+                    <div>
+                        <h5>margin: 2px 4px 6px 8px | 0 auto</h5>
+                        <p>Margin</p>
+                    </div>
+                    <div>
+                        <h5>padding: 2px 4px 6px 8px</h5>
+                        <p>Padding</p>
+                    </div>
+                    <div>
+                        <h5>border-color: #2AA9E0</h5>
+                        <p>Border Color</p>
+                    </div>
+                    <div>
+                        <h5>border-style: none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset</h5>
+                        <p>Border Style</p>
+                    </div>
+                    <div>
+                        <h5>border-width: 10px</h5>
+                        <p>Border Width</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>List Styling</strong></h4>
+                    <div>
+                        <h5>list-style-type: disc | circle | square | none</h5>
+                        <p>List Type</p>
+                    </div>
+                    <div>
+                        <h5>list-style-position: inside | outside</h5>
+                        <p>List Position</p>
+                    </div>
+                    <div>
+                        <h5>list-style-image: url()</h5>
+                        <p>List Image</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Flexbox</strong></h4>
+                    <div>
+                        <h5>flex-direction: row | row-reverse | column | column-reverse</h5>
+                        <p>Flex Direction</p>
+                    </div>
+                    <div>
+                        <h5>flex-wrap: nowrap | wrap | wrap-reverse</h5>
+                        <p>Flex Wrap</p>
+                    </div>
+                    <div>
+                        <h5>justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly</h5>
+                        <p>Justify Content</p>
+                    </div>
+                    <div>
+                        <h5>align-items: flex-start | flex-end | center | baseline | stretch</h5>
+                        <p>Align Items</p>
+                    </div>
+                    <div>
+                        <h5>align-content: flex-start | flex-end | center | space-between | space-around | stretch</h5>
+                        <p>Align Content</p>
+                    </div>
+                    <div>
+                        <h5>order: 0</h5>
+                        <p>Order</p>
+                    </div>
+                    <div>
+                        <h5>flex-grow: 0</h5>
+                        <p>Flex Grow</p>
+                    </div>
+                    <div>
+                        <h5>flex-shrink: 1</h5>
+                        <p>Flex Shrink</p>
+                    </div>
+                    <div>
+                        <h5>flex-basis: 3px | auto</h5>
+                        <p>Flex Basis</p>
+                    </div>
+                    <div>
+                        <h5>align-self: auto | flex-start | flex-end | center | baseline | stretch</h5>
+                        <p>Align Self</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>CSS Grid</strong></h4>
+                    <div>
+                        <h5>grid-template-columns: 40px 50px auto 50px 40px</h5>
+                        <p>Grid Template Columns</p>
+                    </div>
+                    <div>
+                        <h5>grid-template-rows: 25% 100px auto</h5>
+                        <p>Grid Template Rows</p>
+                    </div>
+                    <div>
+                        <h5>grid-template-areas: "a b c" | none</h5>
+                        <p>Grid Template Areas</p>
+                    </div>
+                    <div>
+                        <h5>grid-template: "a a a" 20% "b b b" auto | 100px 1fr / 50px 1fr</h5>
+                        <p>Grid Template</p>
+                    </div>
+                    <div>
+                        <h5>grid-column-gap: 10px</h5>
+                        <p>Grid Column Gap</p>
+                    </div>
+                    <div>
+                        <h5>grid-row-gap: 10px</h5>
+                        <p>Grid Row Gap</p>
+                    </div>
+                    <div>
+                        <h5>justify-items: start | end | center | stretch</h5>
+                        <p>Justify Items</p>
+                    </div>
+                    <div>
+                        <h5>align-items: start | end | center | stretch</h5>
+                        <p>Align Items</p>
+                    </div>
+                    <div>
+                        <h5>justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly</h5>
+                        <p>Justify Content</p>
+                    </div>
+                    <div>
+                        <h5>align-content: flex-start | flex-end | center | space-between | space-around | stretch</h5>
+                        <p>Align Content</p>
+                    </div>
+                    <div>
+                        <h5>grid-auto-columns: 100px | max-content | min-content</h5>
+                        <p>Grid Auto Columns</p>
+                    </div>
+                    <div>
+                        <h5>grid-auto-rows: 100px | max-content | min-content</h5>
+                        <p>Grid Auto Rows</p>
+                    </div>
+                    <div>
+                        <h5>grid-auto-flow: row | column | row dense | column dense</h5>
+                        <p>Grid Auto Flow</p>
+                    </div>
+                    <div>
+                        <h5>grid-column-start: 2 | areaname | span 2 | span areaname | auto</h5>
+                        <p>Grid Column Start</p>
+                    </div>
+                    <div>
+                        <h5>grid-column-end: 2 | areaname | span 2 | span areaname | auto</h5>
+                        <p>Grid Column End</p>
+                    </div>
+                    <div>
+                        <h5>grid-row-start: 2 | areaname | span 2 | span areaname | auto</h5>
+                        <p>Grid Row Start</p>
+                    </div>
+                    <div>
+                        <h5>grid-row-end: 2 | areaname | span 2 | span areaname | auto</h5>
+                        <p>Grid Row End</p>
+                    </div>
+                    <div>
+                        <h5>grid-column: 3 / span 2</h5>
+                        <p>Grid Column</p>
+                    </div>
+                    <div>
+                        <h5>grid-row: 3 / span 2</h5>
+                        <p>Grid Row</p>
+                    </div>
+                    <div>
+                        <h5>justify-self: start | end | center | stretch</h5>
+                        <p>Justify Self</p>
+                    </div>
+                    <div>
+                        <h5>align-self: start | end | center | stretch</h5>
+                        <p>Align Self</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Dynamic Content</strong></h4>
+                    <div>
+                        <h5>--variable-name: value</h5>
+                        <p>CSS Variable</p>
+                    </div>
+                    <div>
+                        <h5>var(--variable-name)</h5>
+                        <p>Variable Usage</p>
+                    </div>
+                    <div>
+                        <h5>counter-reset: name-of-counter</h5>
+                        <p>Counter Reset</p>
+                    </div>
+                    <div>
+                        <h5>counter-increment: name-of-counter</h5>
+                        <p>Counter Increment</p>
+                    </div>
+                    <div>
+                        <h5>content: counter(name-of-counter)</h5>
+                        <p>Counter Dynamic Value</p>
+                    </div>
+                    <div>
+                        <h5>content: attr(name-of-attribute)</h5>
+                        <p>Attribute Dynamic Value</p>
+                    </div>
+                </section>
+            </article>
+        </main>
 
         <script src="./js/script.js"></script>
     </body>
