@@ -8,6 +8,552 @@
         <title>TECH1101 - Project - Javascript Sheet Page</title>
     </head>
     <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Resume Page</a></li>
+                    <li><a href="./html_sheet_page.html">HTML Sheet Page</a></li>
+                    <li><a href="./css_sheet_page.html">CSS Sheet Page</a></li>
+                    <li><a href="./js_sheet_page.html">Javascript Sheet Page</a></li>
+                    <li><a href="./hobbies_page.html">Hobbies Page</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <article>
+                <h1>Javascript Sheet Page</h1>
+                <section>
+                    <h4><strong>Variables</strong></h4>
+                    <div>
+                        <p>These are elements that can vary, which can include variables, data types, and arrays.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Variable</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>var</p> </td><td> <p>The most common variable. Var variables move to the top when code is executed</p> </td></tr>
+                                <tr><td> <p>const</p> </td><td> <p>A variable that cannot be reassigned and is not accessible before they appear within the code</p> </td></tr>
+                                <tr><td> <p>let</p> </td><td> <p>The let variable can be reassigned but not re-declared</p> </td></tr>
+                                <tr><td> <p>var age = 23</p> </td><td> <p>Numbers</p> </td></tr>
+                                <tr><td> <p>var x</p> </td><td> <p>Variables</p> </td></tr>
+                                <tr><td> <p>var a = "init"</p> </td><td> <p>Text (strings)</p> </td></tr>
+                                <tr><td> <p>var b = 1 + 2 + 3</p> </td><td> <p>Operations</p> </td></tr>
+                                <tr><td> <p>var c = true</p> </td><td> <p>True or false statements</p> </td></tr>
+                                <tr><td> <p>const PI = 3.14</p> </td><td> <p>Constant numbers</p> </td></tr>
+                                <tr><td> <p>var name = {firstName:"John", lastName:”Doe"}</p> </td><td> <p>Objects</p> </td></tr>
+                                <tr><td> <p>concat()</p> </td><td> <p>Join several arrays into one</p> </td></tr>
+                                <tr><td> <p>indexOf()</p> </td><td> <p>Returns the first position at which a given element appears in an array</p> </td></tr>
+                                <tr><td> <p>join()</p> </td><td> <p>Combine elements of an array into a single string and return the string</p> </td></tr>
+                                <tr><td> <p>lastIndexOf()</p> </td><td> <p>Gives the last position at which a given element appears in an array</p> </td></tr>
+                                <tr><td> <p>pop()</p> </td><td> <p>Removes the last element of an array</p> </td></tr>
+                                <tr><td> <p>push()</p> </td><td> <p>Add a new element at the end</p> </td></tr>
+                                <tr><td> <p>reverse()</p> </td><td> <p>Reverse the order of the elements in an array</p> </td></tr>
+                                <tr><td> <p>shift()</p> </td><td> <p>Remove the first element of an array</p> </td></tr>
+                                <tr><td> <p>slice()</p> </td><td> <p>Pulls a copy of a portion of an array into a new array of 4 24</p> </td></tr>
+                                <tr><td> <p>sort()</p> </td><td> <p>Sorts elements alphabetically</p> </td></tr>
+                                <tr><td> <p>splice()</p> </td><td> <p>Adds elements in a specified way and position</p> </td></tr>
+                                <tr><td> <p>toString()</p> </td><td> <p>Converts elements to strings</p> </td></tr>
+                                <tr><td> <p>unshift()</p> </td><td> <p>Adds a new element to the beginning</p> </td></tr>
+                                <tr><td> <p>valueOf()</p> </td><td> <p>Returns the primitive value of the specified object</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Operators</strong></h4>
+                    <div>
+                        <p>These are single or multiple data values used to produce a result, including Basic Operators, Comparison Operators, Logical Operators, and Bitwise Operators.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Operator</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>(plus sign) +</p> </td><td> <p>Addition</p> </td></tr>
+                                <tr><td> <p>-</p> </td><td> <p>Subtraction</p> </td></tr>
+                                <tr><td> <p>*</p> </td><td> <p>Multiplication</p> </td></tr>
+                                <tr><td> <p>/</p> </td><td> <p>Division</p> </td></tr>
+                                <tr><td> <p>(..) Grouping operator</p> </td><td> <p>Grouping operator</p> </td></tr>
+                                <tr><td> <p>%</p> </td><td> <p>Remainder</p> </td></tr>
+                                <tr><td> <p>(two plus signs) ++</p> </td><td> <p>Increment numbers</p> </td></tr>
+                                <tr><td> <p>--</p> </td><td> <p>Decrement numbers</p> </td></tr>
+                                <tr><td> <p>( 2 equal signs) ==</p> </td><td> <p>Equal to</p> </td></tr>
+                                <tr><td> <p>(3 equal signs) ===</p> </td><td> <p>Equal value and equal type</p> </td></tr>
+                                <tr><td> <p>!=</p> </td><td> <p>Not equal</p> </td></tr>
+                                <tr><td> <p>!==</p> </td><td> <p>Not equal value or not equal type</p> </td></tr>
+                                <tr><td> <p>&gt;</p> </td><td> <p>Greater than</p> </td></tr>
+                                <tr><td> <p>&lt;</p> </td><td> <p>Less than</p> </td></tr>
+                                <tr><td> <p>&gt;=</p> </td><td> <p>Greater than or equal to</p> </td></tr>
+                                <tr><td> <p>&lt;=</p> </td><td> <p>Less than or equal to</p> </td></tr>
+                                <tr><td> <p>?</p> </td><td> <p>Ternary operator</p> </td></tr>
+                                <tr><td> <p>&amp;&amp;</p> </td><td> <p>Logical and</p> </td></tr>
+                                <tr><td> <p>!!</p> </td><td> <p>Logical or</p> </td></tr>
+                                <tr><td> <p>!</p> </td><td> <p>Logical not</p> </td></tr>
+                                <tr><td> <p>&amp;</p> </td><td> <p>AND statement</p> </td></tr>
+                                <tr><td> <p>|</p> </td><td> <p>OR statement</p> </td></tr>
+                                <tr><td> <p>~</p> </td><td> <p>NOT</p> </td></tr>
+                                <tr><td> <p>^</p> </td><td> <p>XOR</p> </td></tr>
+                                <tr><td> <p>&lt;&lt;</p> </td><td> <p>Left shift</p> </td></tr>
+                                <tr><td> <p>&gt;&gt;</p> </td><td> <p>Right shift</p> </td></tr>
+                                <tr><td> <p>&gt;&gt;&gt;</p> </td><td> <p>Zero fill right shift</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Functions</strong></h4>
+                    <div>
+                        <p>These perform a task to produce a related output, including Outputting Data and Global Functions.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Function</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>alert()</p> </td><td> <p>An alert box is displayed with an OK button</p> </td></tr>
+                                <tr><td> <p>confirm()</p> </td><td> <p>Displays a message box with ok/cancel options</p> </td></tr>
+                                <tr><td> <p>console.log()</p> </td><td> <p>Writes information to the browser&nbsp;</p> </td></tr>
+                                <tr><td> <p>document.write()</p> </td><td> <p>Write directly to the HTML document</p> </td></tr>
+                                <tr><td> <p>prompt()</p> </td><td> <p>A pop up box that needs user input</p> </td></tr>
+                                <tr><td> <p>decodeURI()</p> </td><td> <p>Decodes a Uniform Resource Identifier (URI) created by encodeURI&nbsp;</p> </td></tr>
+                                <tr><td> <p>decodeURIComponent()</p> </td><td> <p>Decodes a URI component</p> </td></tr>
+                                <tr><td> <p>encodeURI()</p> </td><td> <p>Encodes a URI into UTF-8</p> </td></tr>
+                                <tr><td> <p>encodeURIComponent()</p> </td><td> <p>Encodes a URI using numbers to represent letters</p> </td></tr>
+                                <tr><td> <p>eval()</p> </td><td> <p>Evaluates JavaScript code represented as a string</p> </td></tr>
+                                <tr><td> <p>isFinite()</p> </td><td> <p>Determines whether a passed value is a finite number</p> </td></tr>
+                                <tr><td> <p>isNaN()</p> </td><td> <p>Determines whether a value is NaN or not</p> </td></tr>
+                                <tr><td> <p>Number()</p> </td><td> <p>Returns a number converted from its argument</p> </td></tr>
+                                <tr><td> <p>parseFloat()</p> </td><td> <p>Parses an argument and returns a floating point number</p> </td></tr>
+                                <tr><td> <p>parseInt()</p> </td><td> <p>Parses its argument and returns an integer</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Loops</strong></h4>
+                    <div>
+                        <p>These occur until certain conditions are met.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Loop</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>for</p> </td><td> <p>The most common way to create a loop in JavaScript</p> </td></tr>
+                                <tr><td> <p>while</p> </td><td> <p>Sets up conditions for a loop</p> </td></tr>
+                                <tr><td> <p>do-while</p> </td><td> <p>Checks once again to see if the conditions are met</p> </td></tr>
+                                <tr><td> <p>break</p> </td><td> <p>Stops the loop cycle if conditions aren’t met</p> </td></tr>
+                                <tr><td> <p>continue</p> </td><td> <p>Skip parts of the loop if conditions are met</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>If - Else Statements</strong></h4>
+                    <div>
+                        <p>These are designed to run blocks of code if certain conditions are met.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Statement</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>if (condition) {//}</p> </td><td> <p>If a condition is met do this</p> </td></tr>
+                                <tr><td> <p>else {//}</p> </td><td> <p>If a condition is not met do this</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Strings</strong></h4>
+                    <div>
+                        <p>These store text and include escape characters and string methods.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>String</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>\'</p> </td><td> <p>Single quote</p> </td></tr>
+                                <tr><td> <p>\"</p> </td><td> <p>Double quote</p> </td></tr>
+                                <tr><td> <p>\\</p> </td><td> <p>Backslash</p> </td></tr>
+                                <tr><td> <p>\b</p> </td><td> <p>Backspace</p> </td></tr>
+                                <tr><td> <p>\f</p> </td><td> <p>Form feed</p> </td></tr>
+                                <tr><td> <p>\n</p> </td><td> <p>Newline</p> </td></tr>
+                                <tr><td> <p>\r</p> </td><td> <p>Carriage return</p> </td></tr>
+                                <tr><td> <p>\t</p> </td><td> <p>Horizontal tabulator</p> </td></tr>
+                                <tr><td> <p>\v</p> </td><td> <p>Vertical tabulator</p> </td></tr>
+                                <tr><td> <p>charAt()</p> </td><td> <p>Returns a character at a specified position</p> </td></tr>
+                                <tr><td> <p>charCodeAt()</p> </td><td> <p>Gives you the unicode of character at a specified position</p> </td></tr>
+                                <tr><td> <p>concat()</p> </td><td> <p>Joins multiple strings together</p> </td></tr>
+                                <tr><td> <p>fromCharCode()</p> </td><td> <p>Converts UTF-16 unicode values to characters</p> </td></tr>
+                                <tr><td> <p>indexOf()</p> </td><td> <p>Returns the position of the first occurrence of a specified element</p> </td></tr>
+                                <tr><td> <p>lastIndexOf()</p> </td><td> <p>Returns the position of the last occurrence of a specified element</p> </td></tr>
+                                <tr><td> <p>match()</p> </td><td> <p>Returns any matches of a string&nbsp;</p> </td></tr>
+                                <tr><td> <p>replace()</p> </td><td> <p>Find and replace specific text</p> </td></tr>
+                                <tr><td> <p>search()</p> </td><td> <p>Searches for text and returns its position</p> </td></tr>
+                                <tr><td> <p>slice()</p> </td><td> <p>Extracts a section of a string and returns it</p> </td></tr>
+                                <tr><td> <p>split()</p> </td><td> <p>Splits a string into substrings and returns it at a specified position</p> </td></tr>
+                                <tr><td> <p>substr()</p> </td><td> <p>Extracts a string and returns it at a specified position</p> </td></tr>
+                                <tr><td> <p>substring()</p> </td><td> <p>Excluding negative indices, splits a string into substrings and returns it at a specified position&nbsp;</p> </td></tr>
+                                <tr><td> <p>toLowerCase()</p> </td><td> <p>Convert to lowercase</p> </td></tr>
+                                <tr><td> <p>toUpperCase()</p> </td><td> <p>Convert to uppercase</p> </td></tr>
+                                <tr><td> <p>valueOf()</p> </td><td> <p>Returns the primitive value of a string object</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Regular Expressions</strong></h4>
+                    <div>
+                        <p>These are patterns, including pattern modifiers, brackets, metacharacters, and quantifiers.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Regular Expression</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>e</p> </td><td> <p>Evaluate replacement</p> </td></tr>
+                                <tr><td> <p>i</p> </td><td> <p>Perform case-insensitive matching</p> </td></tr>
+                                <tr><td> <p>g</p> </td><td> <p>Perform global matching</p> </td></tr>
+                                <tr><td> <p>m</p> </td><td> <p>Perform multiple line matching</p> </td></tr>
+                                <tr><td> <p>s</p> </td><td> <p>Treat strings as a single line</p> </td></tr>
+                                <tr><td> <p>x</p> </td><td> <p>Allow comments and whitespace in pattern</p> </td></tr>
+                                <tr><td> <p>U</p> </td><td> <p>Non Greedy pattern</p> </td></tr>
+                                <tr><td> <p>[abc]</p> </td><td> <p>Find any of the characters between the brackets</p> </td></tr>
+                                <tr><td> <p>[^abc]</p> </td><td> <p>Find any character not in the brackets</p> </td></tr>
+                                <tr><td> <p>[0-9]</p> </td><td> <p>Used to find any digit from 0 to 9</p> </td></tr>
+                                <tr><td> <p>[A-z]</p> </td><td> <p>Find any character from uppercase A to lowercase z</p> </td></tr>
+                                <tr><td> <p>(a|b|c)</p> </td><td> <p>Find any of the alternatives separated with |</p> </td></tr>
+                                <tr><td> <p>.</p> </td><td> <p>Find a single character, except newline or line terminator</p> </td></tr>
+                                <tr><td> <p>\w</p> </td><td> <p>Word character</p> </td></tr>
+                                <tr><td> <p>\W</p> </td><td> <p>Non-word character</p> </td></tr>
+                                <tr><td> <p>\d</p> </td><td> <p>A digit</p> </td></tr>
+                                <tr><td> <p>\D</p> </td><td> <p>A non-digit character</p> </td></tr>
+                                <tr><td> <p>\s</p> </td><td> <p>Whitespace character</p> </td></tr>
+                                <tr><td> <p>\S</p> </td><td> <p>Non-whitespace character</p> </td></tr>
+                                <tr><td> <p>\b</p> </td><td> <p>Find a match at the beginning/end of a word</p> </td></tr>
+                                <tr><td> <p>\B</p> </td><td> <p>A match not at the beginning/end of a word</p> </td></tr>
+                                <tr><td> <p>\0</p> </td><td> <p>NUL character</p> </td></tr>
+                                <tr><td> <p>\n</p> </td><td> <p>A new line character</p> </td></tr>
+                                <tr><td> <p>\f</p> </td><td> <p>Form feed character</p> </td></tr>
+                                <tr><td> <p>\r</p> </td><td> <p>Carriage return character</p> </td></tr>
+                                <tr><td> <p>\t</p> </td><td> <p>Tab character</p> </td></tr>
+                                <tr><td> <p>\v</p> </td><td> <p>Vertical tab character</p> </td></tr>
+                                <tr><td> <p>\xxx</p> </td><td> <p>The character specified by an octal number xxx</p> </td></tr>
+                                <tr><td> <p>\xdd</p> </td><td> <p>The character specified by a hexadecimal number dd</p> </td></tr>
+                                <tr><td> <p>\uxxxx</p> </td><td> <p>The Unicode character specified by a hexadecimal number xxxx</p> </td></tr>
+                                <tr><td> <p>n+</p> </td><td> <p>Matches any string that contains at least one n</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Numbers and Maths</strong></h4>
+                    <div>
+                        <p>These are mathematical functions, including number properties, number methods, math properties, and math methods.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Value</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>MAX_VALUE</p> </td><td> <p>The maximum numeric value representable in JavaScript</p> </td></tr>
+                                <tr><td> <p>MIN_VALUE</p> </td><td> <p>Smallest positive numeric value representable in JavaScript</p> </td></tr>
+                                <tr><td> <p>NaN</p> </td><td> <p>The “Not-a-Number” value</p> </td></tr>
+                                <tr><td> <p>NEGATIVE_INFINITY</p> </td><td> <p>The negative Infinity value</p> </td></tr>
+                                <tr><td> <p>POSITIVE_INFINITY</p> </td><td> <p>Positive Infinity value</p> </td></tr>
+                                <tr><td> <p>toExponential()</p> </td><td> <p>Returns a string with a rounded number written as exponential notation</p> </td></tr>
+                                <tr><td> <p>toFixed()</p> </td><td> <p>Returns the string of a number with a specified number of decimals</p> </td></tr>
+                                <tr><td> <p>toPrecision()</p> </td><td> <p>A string of a number written with a specified length</p> </td></tr>
+                                <tr><td> <p>toString()</p> </td><td> <p>Returns a number as a string</p> </td></tr>
+                                <tr><td> <p>valueOf()</p> </td><td> <p>Returns a number as a number</p> </td></tr>
+                                <tr><td> <p>E</p> </td><td> <p>Euler’s number</p> </td></tr>
+                                <tr><td> <p>LN2</p> </td><td> <p>The natural logarithm of 2</p> </td></tr>
+                                <tr><td> <p>LN10</p> </td><td> <p>Natural logarithm of 10</p> </td></tr>
+                                <tr><td> <p>LOG2E</p> </td><td> <p>Base 2 logarithm of E</p> </td></tr>
+                                <tr><td> <p>LOG10E</p> </td><td> <p>Base 10 logarithm of E</p> </td></tr>
+                                <tr><td> <p>PI</p> </td><td> <p>The number PI</p> </td></tr>
+                                <tr><td> <p>SQRT1_2</p> </td><td> <p>The square root of 1/2</p> </td></tr>
+                                <tr><td> <p>SQRT2</p> </td><td> <p>The square root of 2</p> </td></tr>
+                                <tr><td> <p>abs(x)</p> </td><td> <p>Returns the absolute (positive) value of x</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Dates</strong></h4>
+                    <div>
+                        <p>These include specific points in time and include setting dates, and pulling date and time values, and set part of a date.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Value</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>tan(x)</p> </td><td> <p>The tangent of an angle</p> </td></tr>
+                                <tr><td> <p>Date()</p> </td><td> <p>Creates a new date object with the current date and time</p> </td></tr>
+                                <tr><td> <p>Date(2017, 5, 21, 3, 23, 10, 0)</p> </td><td> <p>Create a custom date object. The numbers represent year, month, day, hour, minutes, seconds, milliseconds. You can omit anything you want except for year and month.</p> </td></tr>
+                                <tr><td> <p>Date("2017-06-23")</p> </td><td> <p>Date declaration as a string</p> </td></tr>
+                                <tr><td> <p>getDate()</p> </td><td> <p>Get the day of the month as a number (1-31)</p> </td></tr>
+                                <tr><td> <p>getDay()</p> </td><td> <p>The weekday as a number (0-6)</p> </td></tr>
+                                <tr><td> <p>getFullYear()</p> </td><td> <p>Year as a four digit number (yyyy)</p> </td></tr>
+                                <tr><td> <p>getHours()</p> </td><td> <p>Get the hour (0-23)</p> </td></tr>
+                                <tr><td> <p>getMilliseconds()</p> </td><td> <p>The millisecond (0-999)</p> </td></tr>
+                                <tr><td> <p>getMinutes()</p> </td><td> <p>Get the minute (0-59)</p> </td></tr>
+                                <tr><td> <p>getMonth()</p> </td><td> <p>Month as a number (0-11)</p> </td></tr>
+                                <tr><td> <p>getSeconds()</p> </td><td> <p>Get the second (0-59)</p> </td></tr>
+                                <tr><td> <p>getTime()</p> </td><td> <p>Get the milliseconds since January 1, 1970</p> </td></tr>
+                                <tr><td> <p>getUTCDate()</p> </td><td> <p>The day (date) of the month in the specified date according to universal time (also available for day, month, full year, hours, minutes etc.)</p> </td></tr>
+                                <tr><td> <p>parse</p> </td><td> <p>Parses a string representation of a date, and returns the number of milliseconds since January 1, 1970</p> </td></tr>
+                                <tr><td> <p>setDate()</p> </td><td> <p>Set the day as a number (1-31)</p> </td></tr>
+                                <tr><td> <p>setFullYear()</p> </td><td> <p>Sets the year (optionally month and day)</p> </td></tr>
+                                <tr><td> <p>setHours()</p> </td><td> <p>Set the hour (0-23)</p> </td></tr>
+                                <tr><td> <p>setMilliseconds()</p> </td><td> <p>Set milliseconds (0-999)</p> </td></tr>
+                                <tr><td> <p>setMinutes()</p> </td><td> <p>Sets the minutes (0-59)</p> </td></tr>
+                                <tr><td> <p>setMonth()</p> </td><td> <p>Set the month (0-11)</p> </td></tr>
+                                <tr><td> <p>setSeconds()</p> </td><td> <p>Sets the seconds (0-59)</p> </td></tr>
+                                <tr><td> <p>setTime()</p> </td><td> <p>Set the time (milliseconds since January 1, 1970)</p> </td></tr>
+                                <tr><td> <p>setUTCDate()</p> </td><td> <p>Sets the day of the month for a specified date according to universal time (also available for day, month, full year, hours, minutes etc.)</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>DOM Node</strong></h4>
+                    <div>
+                        <p>This allows JavaScript to update the web page and include node properties, node methods, and element methods.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Value</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>attributes</p> </td><td> <p>Returns a live collection of all attributes registered to and element</p> </td></tr>
+                                <tr><td> <p>baseURI</p> </td><td> <p>Provides the absolute base URL of an HTML element</p> </td></tr>
+                                <tr><td> <p>childNodes</p> </td><td> <p>Gives a collection of an element’s child nodes</p> </td></tr>
+                                <tr><td> <p>firstChild</p> </td><td> <p>Returns the first child node of an element</p> </td></tr>
+                                <tr><td> <p>lastChild</p> </td><td> <p>The last child node of an element</p> </td></tr>
+                                <tr><td> <p>nextSibling</p> </td><td> <p>Gives you the next node at the same node tree level</p> </td></tr>
+                                <tr><td> <p>nodeName</p> </td><td> <p>Returns the name of a node</p> </td></tr>
+                                <tr><td> <p>nodeType</p> </td><td> <p>Returns the type of a node</p> </td></tr>
+                                <tr><td> <p>nodeValue</p> </td><td> <p>Sets or returns the value of a node</p> </td></tr>
+                                <tr><td> <p>ownerDocument</p> </td><td> <p>The top-level document object for this node</p> </td></tr>
+                                <tr><td> <p>parentNode</p> </td><td> <p>Returns the parent node of an element</p> </td></tr>
+                                <tr><td> <p>previousSibling</p> </td><td> <p>Returns the node immediately preceding the current one</p> </td></tr>
+                                <tr><td> <p>textContent</p> </td><td> <p>Sets or returns the textual content of a node and its descendants</p> </td></tr>
+                                <tr><td> <p>appendChild()</p> </td><td> <p>Adds a new child node to an element as the last child node</p> </td></tr>
+                                <tr><td> <p>cloneNode()</p> </td><td> <p>Clones a HTML element</p> </td></tr>
+                                <tr><td> <p>compareDocumentPosition()</p> </td><td> <p>Compares the document position of two elements</p> </td></tr>
+                                <tr><td> <p>getFeature()</p> </td><td> <p>Returns an object which implements the APIs of a specified feature</p> </td></tr>
+                                <tr><td> <p>hasAttributes()</p> </td><td> <p>Returns true if an element has any attributes, otherwise false</p> </td></tr>
+                                <tr><td> <p>hasChildNodes()</p> </td><td> <p>Returns true if an element has any child nodes, otherwise false</p> </td></tr>
+                                <tr><td> <p>insertBefore()</p> </td><td> <p>Inserts a new child node before a specified, existing child node</p> </td></tr>
+                                <tr><td> <p>isDefaultNamespace()</p> </td><td> <p>Returns true if a specified namespaceURI is the default, otherwise false</p> </td></tr>
+                                <tr><td> <p>isEqualNode()</p> </td><td> <p>Checks if two elements are equal</p> </td></tr>
+                                <tr><td> <p>isSameNode()</p> </td><td> <p>Checks if two elements are the same node</p> </td></tr>
+                                <tr><td> <p>isSupported()</p> </td><td> <p>Returns true if a specified feature is supported on the element</p> </td></tr>
+                                <tr><td> <p>lookupNamespaceURI()</p> </td><td> <p>Returns the namespaceURI associated with a given node</p> </td></tr>
+                                <tr><td> <p>lookupPrefix()</p> </td><td> <p>Returns a DOMString containing the prefix for a given namespaceURI, if present</p> </td></tr>
+                                <tr><td> <p>normalize()</p> </td><td> <p>Joins adjacent text nodes and removes empty text nodes in an element</p> </td></tr>
+                                <tr><td> <p>removeChild()</p> </td><td> <p>Removes a child node from an element</p> </td></tr>
+                                <tr><td> <p>replaceChild()</p> </td><td> <p>Replaces a child node in an element</p> </td></tr>
+                                <tr><td> <p>getAttribute()</p> </td><td> <p>Returns the specified attribute value of an element node</p> </td></tr>
+                                <tr><td> <p>getAttributeNS()</p> </td><td> <p>Returns string value of the attribute with the specified namespace and name</p> </td></tr>
+                                <tr><td> <p>getAttributeNode()</p> </td><td> <p>Gets the specified attribute node</p> </td></tr>
+                                <tr><td> <p>getAttributeNodeNS()</p> </td><td> <p>Returns the attribute node for the attribute with the given namespace and name</p> </td></tr>
+                                <tr><td> <p>getElementsByTagName()</p> </td><td> <p>Provides a collection of all child elements with the specified tag name</p> </td></tr>
+                                <tr><td> <p>getElementsByTagNameNS()</p> </td><td> <p>Returns a live HTMLCollection of elements with a certain tag name belonging to the given namespace</p> </td></tr>
+                                <tr><td> <p>hasAttribute()</p> </td><td> <p>Returns true if an element has any attributes, otherwise false</p> </td></tr>
+                                <tr><td> <p>hasAttributeNS()</p> </td><td> <p>Provides a true/false value indicating whether the current element in a given namespace has the specified attribute</p> </td></tr>
+                                <tr><td> <p>removeAttribute()</p> </td><td> <p>Removes a specified attribute from an element</p> </td></tr>
+                                <tr><td> <p>removeAttributeNS()</p> </td><td> <p>Removes the specified attribute from an element within a certain namespace</p> </td></tr>
+                                <tr><td> <p>removeAttributeNode()</p> </td><td> <p>Takes away a specified attribute node and returns the removed node</p> </td></tr>
+                                <tr><td> <p>setAttribute()</p> </td><td> <p>Sets or changes the specified attribute to a specified value</p> </td></tr>
+                                <tr><td> <p>setAttributeNS()</p> </td><td> <p>Adds a new attribute or changes the value of an attribute with the given namespace and name</p> </td></tr>
+                                <tr><td> <p>setAttributeNode()</p> </td><td> <p>Sets or changes the specified attribute node</p> </td></tr>
+                                <tr><td> <p>setAttributeNodeNS()</p> </td><td> <p>Adds a new namespaced attribute node to an element</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Events</strong></h4>
+                    <div>
+                        <p>These are the updates caused by JavaScript code and include mouse, keyboard, frame, form, drag, clipboard, media, animation, and other.</p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Event</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>onclick</p> </td><td> <p>The event occurs when the user clicks on an element</p> </td></tr>
+                                <tr><td> <p>oncontextmenu</p> </td><td> <p>User right-clicks on an element to open a context menu</p> </td></tr>
+                                <tr><td> <p>ondblclick</p> </td><td> <p>The user double-clicks on an element</p> </td></tr>
+                                <tr><td> <p>onmousedown</p> </td><td> <p>The user presses a mouse button over an element</p> </td></tr>
+                                <tr><td> <p>onmouseenter</p> </td><td> <p>The pointer moves onto an element</p> </td></tr>
+                                <tr><td> <p>onmouseleave</p> </td><td> <p>The pointer moves out of an element</p> </td></tr>
+                                <tr><td> <p>onmousemove</p> </td><td> <p>The pointer is moving while it is over an element</p> </td></tr>
+                                <tr><td> <p>onmouseover</p> </td><td> <p>When the pointer is moved onto an element or one of its children</p> </td></tr>
+                                <tr><td> <p>onmouseout</p> </td><td> <p>The user moves the mouse pointer out of an element or one of its children</p> </td></tr>
+                                <tr><td> <p>onmouseup</p> </td><td> <p>The user releases a mouse button while over an element</p> </td></tr>
+                                <tr><td> <p>onkeydown</p> </td><td> <p>When the user is pressing a key down</p> </td></tr>
+                                <tr><td> <p>onkeypress</p> </td><td> <p>The moment the user starts pressing a key</p> </td></tr>
+                                <tr><td> <p>onkeyup</p> </td><td> <p>The user releases a key</p> </td></tr>
+                                <tr><td> <p>onabort</p> </td><td> <p>The loading of a media is aborted</p> </td></tr>
+                                <tr><td> <p>onbeforeunload</p> </td><td> <p>Event occurs before the document is about to be unloaded</p> </td></tr>
+                                <tr><td> <p>onerror</p> </td><td> <p>An error occurs while loading an external file</p> </td></tr>
+                                <tr><td> <p>onhashchange</p> </td><td> <p>There have been changes to the anchor part of a URL</p> </td></tr>
+                                <tr><td> <p>onload</p> </td><td> <p>When an object has loaded</p> </td></tr>
+                                <tr><td> <p>onpagehide</p> </td><td> <p>The user navigates away from a webpage</p> </td></tr>
+                                <tr><td> <p>onpageshow</p> </td><td> <p>When the user navigates to a webpage</p> </td></tr>
+                                <tr><td> <p>onresize</p> </td><td> <p>The document view is resized</p> </td></tr>
+                                <tr><td> <p>onscroll</p> </td><td> <p>An element’s scrollbar is being scrolled</p> </td></tr>
+                                <tr><td> <p>onunload</p> </td><td> <p>Event occurs when a page has unloaded</p> </td></tr>
+                                <tr><td> <p>onblur</p> </td><td> <p>When an element loses focus</p> </td></tr>
+                                <tr><td> <p>onchange</p> </td><td> <p>The content of a form element changes (for &lt;input&gt;, &lt;select&gt;and &lt;textarea&gt;)</p> </td></tr>
+                                <tr><td> <p>onfocus</p> </td><td> <p>An element gets focus</p> </td></tr>
+                                <tr><td> <p>onfocusin</p> </td><td> <p>When an element is about to get focus</p> </td></tr>
+                                <tr><td> <p>onfocusout</p> </td><td> <p>The element is about to lose focus</p> </td></tr>
+                                <tr><td> <p>oninput</p> </td><td> <p>User input on an element</p> </td></tr>
+                                <tr><td> <p>oninvalid</p> </td><td> <p>An element is invalid</p> </td></tr>
+                                <tr><td> <p>onreset</p> </td><td> <p>A form is reset</p> </td></tr>
+                                <tr><td> <p>onsearch</p> </td><td> <p>The user writes something in a search field (for &lt;input="search"&gt;)</p> </td></tr>
+                                <tr><td> <p>onselect</p> </td><td> <p>The user selects some text (for &lt;input&gt; and &lt;textarea&gt;)</p> </td></tr>
+                                <tr><td> <p>onsubmit</p> </td><td> <p>A form is submitted</p> </td></tr>
+                                <tr><td> <p>ondrag</p> </td><td> <p>An element is dragged</p> </td></tr>
+                                <tr><td> <p>ondragend</p> </td><td> <p>The user has finished dragging the element</p> </td></tr>
+                                <tr><td> <p>ondragenter</p> </td><td> <p>The dragged element enters a drop target</p> </td></tr>
+                                <tr><td> <p>ondragleave</p> </td><td> <p>A dragged element leaves the drop target</p> </td></tr>
+                                <tr><td> <p>ondragover</p> </td><td> <p>The dragged element is on top of the drop target</p> </td></tr>
+                                <tr><td> <p>ondragstart</p> </td><td> <p>User starts to drag an element</p> </td></tr>
+                                <tr><td> <p>ondrop</p> </td><td> <p>Dragged element is dropped on the drop target</p> </td></tr>
+                                <tr><td> <p>oncopy</p> </td><td> <p>User copies the content of an element</p> </td></tr>
+                                <tr><td> <p>oncut</p> </td><td> <p>The user cuts an element’s content</p> </td></tr>
+                                <tr><td> <p>onpaste</p> </td><td> <p>A user pastes content in an element</p> </td></tr>
+                                <tr><td> <p>onabort</p> </td><td> <p>Media loading is aborted</p> </td></tr>
+                                <tr><td> <p>oncanplay</p> </td><td> <p>The browser can start playing media (e.g. a file has buffered enough)</p> </td></tr>
+                                <tr><td> <p>oncanplaythrough</p> </td><td> <p>When browser can play through media without stopping</p> </td></tr>
+                                <tr><td> <p>ondurationchange</p> </td><td> <p>The duration of the media changes</p> </td></tr>
+                                <tr><td> <p>onended</p> </td><td> <p>The media has reached its end</p> </td></tr>
+                                <tr><td> <p>onerror</p> </td><td> <p>Happens when an error occurs while loading an external file</p> </td></tr>
+                                <tr><td> <p>onloadeddata</p> </td><td> <p>Media data is loaded</p> </td></tr>
+                                <tr><td> <p>onloadedmetadata</p> </td><td> <p>Meta Metadata (like dimensions and duration) are loaded</p> </td></tr>
+                                <tr><td> <p>onloadstart</p> </td><td> <p>The browser starts looking for specified media</p> </td></tr>
+                                <tr><td> <p>onpause</p> </td><td> <p>Media is paused either by the user or automatically</p> </td></tr>
+                                <tr><td> <p>onplay</p> </td><td> <p>The media has been started or is no longer paused</p> </td></tr>
+                                <tr><td> <p>onplaying</p> </td><td> <p>Media is playing after having been paused or stopped for buffering</p> </td></tr>
+                                <tr><td> <p>onprogress</p> </td><td> <p>Browser is in the process of downloading the media</p> </td></tr>
+                                <tr><td> <p>onratechange</p> </td><td> <p>The playing speed of the media changes</p> </td></tr>
+                                <tr><td> <p>onseeked</p> </td><td> <p>The user is finished moving/skipping to a new position in the media</p> </td></tr>
+                                <tr><td> <p>onseeking</p> </td><td> <p>The user starts moving/skipping</p> </td></tr>
+                                <tr><td> <p>onstalled</p> </td><td> <p>The browser is trying to load the media but it is not available</p> </td></tr>
+                                <tr><td> <p>onsuspend</p> </td><td> <p>Browser is intentionally not loading media</p> </td></tr>
+                                <tr><td> <p>ontimeupdate</p> </td><td> <p>The playing position has changed (e.g. because of fast forward)</p> </td></tr>
+                                <tr><td> <p>onvolumechange</p> </td><td> <p>Media volume has changed (including mute)</p> </td></tr>
+                                <tr><td> <p>onwaiting</p> </td><td> <p>Media paused but expected to resume (for example, buffering)</p> </td></tr>
+                                <tr><td> <p>animationend</p> </td><td> <p>A CSS animation is complete</p> </td></tr>
+                                <tr><td> <p>animationiteration</p> </td><td> <p>CSS animation is repeated</p> </td></tr>
+                                <tr><td> <p>animationstart</p> </td><td> <p>CSS animation has started</p> </td></tr>
+                                <tr><td> <p>transitionend</p> </td><td> <p>Fired when a CSS transition has been completed</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Errors</strong></h4>
+                    <div>
+                        <p></p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Error</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>onmessage</p> </td><td> <p>A message is received through the event source</p> </td></tr>
+                                <tr><td> <p>onoffline</p> </td><td> <p>The browser starts to work offline</p> </td></tr>
+                                <tr><td> <p>ononline</p> </td><td> <p>The browser starts to work online</p> </td></tr>
+                                <tr><td> <p>onpopstate</p> </td><td> <p>When the window’s history changes</p> </td></tr>
+                                <tr><td> <p>onshow</p> </td><td> <p>An &lt;menu&gt; element is shown as a context menu</p> </td></tr>
+                                <tr><td> <p>onstorage</p> </td><td> <p>A Web Storage area is updated</p> </td></tr>
+                                <tr><td> <p>ontoggle</p> </td><td> <p>The user opens or closes the &lt;details&gt; element</p> </td></tr>
+                                <tr><td> <p>onwheel</p> </td><td> <p>The mouse wheel rolls up or down over an element</p> </td></tr>
+                                <tr><td> <p>ontouchcancel</p> </td><td> <p>Screen touch is interrupted</p> </td></tr>
+                                <tr><td> <p>ontouchend</p> </td><td> <p>User finger is removed from a touch screen</p> </td></tr>
+                                <tr><td> <p>ontouchmove</p> </td><td> <p>A finger is dragged across the screen</p> </td></tr>
+                                <tr><td> <p>ontouchstart</p> </td><td> <p>Finger is placed on touch screen</p> </td></tr>
+                                <tr><td> <p>try</p> </td><td> <p>Lets you define a block of code to test for errors</p> </td></tr>
+                                <tr><td> <p>catch</p> </td><td> <p>Set up a block of code to execute in case of an error</p> </td></tr>
+                                <tr><td> <p>throw</p> </td><td> <p>Create custom error messages instead of the standard JavaScript errors</p> </td></tr>
+                                <tr><td> <p>finally</p> </td><td> <p>Lets you execute code, after try and catch, regardless of the result</p> </td></tr>
+                                <tr><td> <p>name</p> </td><td> <p>Sets or returns the error name</p> </td></tr>
+                                <tr><td> <p>message</p> </td><td> <p>Sets or returns an error message in string from</p> </td></tr>
+                                <tr><td> <p>EvalError</p> </td><td> <p>An error has occurred in the eval() function</p> </td></tr>
+                                <tr><td> <p>RangeError</p> </td><td> <p>A number is “out of range”</p> </td></tr>
+                                <tr><td> <p>ReferenceError</p> </td><td> <p>An illegal reference has occurred</p> </td></tr>
+                                <tr><td> <p>SyntaxError</p> </td><td> <p>A syntax error has occurred</p> </td></tr>
+                                <tr><td> <p>TypeError</p> </td><td> <p>A type error has occurred</p> </td></tr>
+                                <tr><td> <p>URIError</p> </td><td> <p>An encodeURI() error has occurred</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <section>
+                    <h4><strong>Window Properties</strong></h4>
+                    <div>
+                        <p></p>
+                        <table width="700">
+                            <colgroup><col width="200"><col width="500"></colgroup>
+                            <tbody>
+                                <tr><th> <p>Window Property</p> </th><th> <p>Description</p> </th></tr>
+                                <tr><td> <p>closed</p> </td><td> <p>Checks whether a window has been closed or not and returns true or false</p> </td></tr>
+                                <tr><td> <p>defaultStatus</p> </td><td> <p>Sets or returns the default text in the status bar of a window</p> </td></tr>
+                                <tr><td> <p>document</p> </td><td> <p>Returns the document object for the window</p> </td></tr>
+                                <tr><td> <p>frames</p> </td><td> <p>Returns all &lt;iframe&gt; elements in the current window</p> </td></tr>
+                                <tr><td> <p>history</p> </td><td> <p>Provides the History object for the window</p> </td></tr>
+                                <tr><td> <p>innerHeight</p> </td><td> <p>The inner height of a window’s content area</p> </td></tr>
+                                <tr><td> <p>innerWidth</p> </td><td> <p>The inner width of the content area</p> </td></tr>
+                                <tr><td> <p>length</p> </td><td> <p>Find out the number of &lt;iframe&gt; elements in the window</p> </td></tr>
+                                <tr><td> <p>location</p> </td><td> <p>Returns the location object for the window</p> </td></tr>
+                                <tr><td> <p>name</p> </td><td> <p>Sets or returns the name of a window</p> </td></tr>
+                                <tr><td> <p>navigator</p> </td><td> <p>Returns the Navigator object for the window</p> </td></tr>
+                                <tr><td> <p>opener</p> </td><td> <p>Returns a reference to the window that created the window</p> </td></tr>
+                                <tr><td> <p>outerHeight</p> </td><td> <p>The outer height of a window, including toolbars/ scrollbars</p> </td></tr>
+                                <tr><td> <p>outerWidth</p> </td><td> <p>The outer width of a window, including toolbars/ scrollbars</p> </td></tr>
+                                <tr><td> <p>pageXOffset</p> </td><td> <p>Number of pixels the current document has been scrolled horizontally</p> </td></tr>
+                                <tr><td> <p>pageYOffset</p> </td><td> <p>Number of pixels the document has been scrolled vertically</p> </td></tr>
+                                <tr><td> <p>parent</p> </td><td> <p>The parent window of the current window</p> </td></tr>
+                                <tr><td> <p>screen</p> </td><td> <p>Returns the Screen object for the window</p> </td></tr>
+                                <tr><td> <p>screenLeft</p> </td><td> <p>The horizontal coordinate of the window (relative to the screen)</p> </td></tr>
+                                <tr><td> <p>screenTop</p> </td><td> <p>The vertical coordinate of the window</p> </td></tr>
+                                <tr><td> <p>screenX</p> </td><td> <p>Same as screenLeft but needed for some browsers</p> </td></tr>
+                                <tr><td> <p>screenY</p> </td><td> <p>Same as screenTop but needed for some browsers</p> </td></tr>
+                                <tr><td> <p>self</p> </td><td> <p>Returns the current window</p> </td></tr>
+                                <tr><td> <p>status</p> </td><td> <p>Sets or returns the text in the status bar of a window</p> </td></tr>
+                                <tr><td> <p>top</p> </td><td> <p>Returns the topmost browser window</p> </td></tr>
+                                <tr><td> <p>alert()</p> </td><td> <p>Displays an alert box with a message and an OK button</p> </td></tr>
+                                <tr><td> <p>blur()</p> </td><td> <p>Removes focus from the current window</p> </td></tr>
+                                <tr><td> <p>clearInterval()</p> </td><td> <p>Clears a timer set with setInterval()</p> </td></tr>
+                                <tr><td> <p>clearTimeout()</p> </td><td> <p>Clears a timer set with setTimeout()</p> </td></tr>
+                                <tr><td> <p>close()</p> </td><td> <p>Closes the current window</p> </td></tr>
+                                <tr><td> <p>confirm()</p> </td><td> <p>Displays a dialogue box with a message and an OK and Cancel button</p> </td></tr>
+                                <tr><td> <p>focus()</p> </td><td> <p>Sets focus to the current window</p> </td></tr>
+                                <tr><td> <p>moveBy()</p> </td><td> <p>Moves a window relative to its current position</p> </td></tr>
+                                <tr><td> <p>moveTo()</p> </td><td> <p>Moves a window to a specified position</p> </td></tr>
+                                <tr><td> <p>open()</p> </td><td> <p>Opens a new browser window</p> </td></tr>
+                                <tr><td> <p>print()</p> </td><td> <p>Prints the content of the current window</p> </td></tr>
+                                <tr><td> <p>prompt()</p> </td><td> <p>Displays a dialogue box that prompts the visitor for input</p> </td></tr>
+                                <tr><td> <p>resizeBy()</p> </td><td> <p>Resizes the window by the specified number of pixels</p> </td></tr>
+                                <tr><td> <p>resizeTo()</p> </td><td> <p>Resizes the window to a specified width and height</p> </td></tr>
+                                <tr><td> <p>scrollBy()</p> </td><td> <p>Scrolls the document by a specified number of pixels</p> </td></tr>
+                                <tr><td> <p>scrollTo()</p> </td><td> <p>Scrolls the document to specific coordinates</p> </td></tr>
+                                <tr><td> <p>setInterval()</p> </td><td> <p>Calls a function or evaluates an expression at specified intervals</p> </td></tr>
+                                <tr><td> <p>setTimeout()</p> </td><td> <p>Calls a function or evaluates an expression after a specified interval</p> </td></tr>
+                                <tr><td> <p>stop()</p> </td><td> <p>Stops the window from loading</p> </td></tr>
+                                <tr><td> <p>availHeight</p> </td><td> <p>Returns the height of the screen (excluding the Windows Taskbar)</p> </td></tr>
+                                <tr><td> <p>availWidth</p> </td><td> <p>Returns the width of the screen (excluding the Windows Taskbar)</p> </td></tr>
+                                <tr><td> <p>colorDepth</p> </td><td> <p>Returns the bit depth of the color palette for displaying images</p> </td></tr>
+                                <tr><td> <p>height</p> </td><td> <p>The total height of the screen</p> </td></tr>
+                                <tr><td> <p>pixelDepth</p> </td><td> <p>The color resolution of the screen in bits per pixel</p> </td></tr>
+                                <tr><td> <p>width</p> </td><td> <p>The total width of the screen</p> </td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                
+            </article>
+        </main>
 
         <script src="./js/script.js"></script>
     </body>
