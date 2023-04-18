@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav id="navbar">
                 <ul>
                     <li><a href="./index.html">Resume Page</a></li>
                     <li><a href="./html_sheet_page.html">HTML Sheet Page</a></li>
@@ -20,9 +20,32 @@
             </nav>
         </header>
 
+        <aside id="aside-resources">
+            <div>
+                <h4>HTML Resources:</h4>
+                <table>
+                    <colgroup><col><col><col></colgroup>
+                    <tr><td><img src="./images/Icon_Flaticon.png" target="_blank" alt="Logo_flaticon"></td><td><a href="https://www.flaticon.com/">Flaticon</a></td><td>Download Free Icons and Stickers for your projects. Images made by and for designers in PNG, SVG, EPS, PSD and CSS formats.</td></tr>
+                    <tr><td><img src="./images/Icon_Mdn.png" target="_blank" alt="Logo_mdn"></td><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Mdn Web Docs</a></td><td>You don't need to know every HTML element. I just use this excellent reference all the time.</td></tr>
+                    <tr><td><img src="./images/Icon_Glyphs.png" target="_blank" alt="Logo_glyphs"></td><td><a href="https://css-tricks.com/snippets/html/glyphs/">Glyphs</a></td><td>Super useful reference, gives you HTML entity name, numeric code, hex code and ISO code.</td></tr>
+                </table>
+                <button type="button" id="button-resources-close"><img src="./images/Button_Close.png" alt="Close Button" class="button-close"></button>
+            </div>
+        </aside>
+
         <main>
+            <header id="header-page">
+                <section>
+                    <div>
+                        <h1>HTML Sheet Page</h1>
+                        <img src="./images/Logo_HTML5.png" alt="HTML5 Logo Image" class="page-image">
+                        <div id="header-div-icons">
+                            <button type="button" id="button-resources" class="button-resources">HTML Resources</button>
+                        </div>
+                    </div>
+                </section>
+            </header>
             <article>
-                <h1>HTML Sheet Page</h1>
                 <section>
                     <h4><strong>Basic Tags</strong></h4>
 
@@ -390,6 +413,16 @@
             </article>
         </main>
 
-        <script src="./js/script.js"></script>
+        <footer>
+            <div id="footer-div-icons">
+                <a href="https://www.linkedin.com/in/daniel-kakiuthi/" target="_blank"><img src="./images/Logo_Linkedin.png" title="Linkedin" alt="Linkedin Logo" class="icon-logo"></a>
+                <a href="https://github.com/danielkakiuthi" target="_blank"><img src="./images/Logo_Github.png" title="Github" alt="Github Logo" class="icon-logo"></a>
+                <a href="https://www.instagram.com/danielkakiuthi" target="_blank"><img src="./images/Logo_Instagram.png" title="Instagram" alt="Instagram Logo" class="icon-logo"></a>
+                <a href="https://www.facebook.com/daniel.kakiuthi" target="_blank"><img src="./images/Logo_Facebook.png" title="Facebook" alt="Facebook Logo" class="icon-logo"></a>
+                <p>Daniel Kakiuthi</p>
+            </div>
+        </footer>
+
+        <script src="./js/script.js" currentHtml="html_sheet_page.html"></script>
     </body>
 </html>

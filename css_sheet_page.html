@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav id="navbar">
                 <ul>
                     <li><a href="./index.html">Resume Page</a></li>
                     <li><a href="./html_sheet_page.html">HTML Sheet Page</a></li>
@@ -20,10 +20,36 @@
             </nav>
         </header>
 
-        <main>
+        <aside id="aside-resources">
+            <div>
+                <h4>CSS Resources:</h4>
+                <table>
+                    <colgroup><col><col><col></colgroup>
+                    <tr><td><img src="./images/Icon_Colorhunt.png" target="_blank" alt="Logo_colorhunt"></td><td><a href="https://colorhunt.co/">Color Hunt</a></td><td>Color Palettes for Designers and Artists.</td></tr>
+                    <tr><td><img src="./images/Icon_147colors.png" target="_blank" alt="Logo_147colors"></td><td><a href="https://147colors.com/">147 Colors</a></td><td>Colors | CSS Color Names.</td></tr>
+                    <tr><td><img src="./images/Icon_Colorhex.png" target="_blank" alt="Logo_colorhex"></td><td><a href="https://www.color-hex.com/">Color Hex Color Codes</a></td><td>Color hex is a easy to use tool to get the color codes information including color models (RGB,HSL,HSV and CMYK), css and html color codes.</td></tr>
+                    <tr><td><img src="./images/Icon_Polypane.png" target="_blank" alt="Logo_polypane"></td><td><a href="https://polypane.app/css-specificity-calculator/">Polypane Specificity Calculator</a></td><td>Calculate the specificity of selectors all the way up to CSS Selectors level 4.</td></tr>
+                    <tr><td><img src="./images/Icon_Giphy.png" target="_blank" alt="Logo_giphy"></td><td><a href="https://giphy.com/">Giphy</a></td><td>Explore and share the best Icon GIFs and most popular animated GIFs here on GIPHY. Find Funny GIFs, Cute GIFs, Reaction GIFs and more.</td></tr>
+                    <tr><td><img src="./images/Icon_Pexels.png" target="_blank" alt="Logo_pexels"></td><td><a href="https://www.pexels.com/">Pexels</a></td><td>Free stock photos, royalty free images & videos shared by creators.</td></tr>
+                    <tr><td><img src="./images/Icon_Freepik.png" target="_blank" alt="Logo_freepik"></td><td><a href="https://www.freepik.com/">Freepik</a></td><td>FFind and download the best high-quality photos, vectors, videos, and mockups.</td></tr>
+                </table>
+                <button type="button" id="button-resources-close"><img src="./images/Button_Close.png" alt="Close Button" class="button-close"></button>
+            </div>
+        </aside>
 
+        <main>
+            <header id="header-page">
+                <section>
+                    <div>
+                        <h1>CSS Sheet Page</h1>
+                        <img src="./images/Logo_CSS3.png" alt="CSS3 Logo Image" class="page-image">
+                        <div id="header-div-icons">
+                            <button type="button" id="button-resources" class="button-resources">CSS Resources</button>
+                        </div>
+                    </div>
+                </section>
+            </header>
             <article>
-                <h1>CSS Sheet Page</h1>
                 <section>
                     <h4><strong>Selectors</strong></h4>
                     <div>
@@ -466,6 +492,16 @@
             </article>
         </main>
 
-        <script src="./js/script.js"></script>
+        <footer>
+            <div id="footer-div-icons">
+                <a href="https://www.linkedin.com/in/daniel-kakiuthi/" target="_blank"><img src="./images/Logo_Linkedin.png" title="Linkedin" alt="Linkedin Logo" class="icon-logo"></a>
+                <a href="https://github.com/danielkakiuthi" target="_blank"><img src="./images/Logo_Github.png" title="Github" alt="Github Logo" class="icon-logo"></a>
+                <a href="https://www.instagram.com/danielkakiuthi" target="_blank"><img src="./images/Logo_Instagram.png" title="Instagram" alt="Instagram Logo" class="icon-logo"></a>
+                <a href="https://www.facebook.com/daniel.kakiuthi" target="_blank"><img src="./images/Logo_Facebook.png" title="Facebook" alt="Facebook Logo" class="icon-logo"></a>
+                <p>Daniel Kakiuthi</p>
+            </div>
+        </footer>
+
+        <script src="./js/script.js" currentHtml="css_sheet_page.html"></script>
     </body>
 </html>

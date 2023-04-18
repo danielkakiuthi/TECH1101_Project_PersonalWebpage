@@ -9,7 +9,7 @@
     </head>
     <body>
         <header>
-            <nav>
+            <nav id="navbar">
                 <ul>
                     <li><a href="./index.html">Resume Page</a></li>
                     <li><a href="./html_sheet_page.html">HTML Sheet Page</a></li>
@@ -20,15 +20,39 @@
             </nav>
         </header>
 
+        <aside id="aside-resources">
+            <div>
+                <h4>JavaScript Resources:</h4>
+                <table>
+                    <colgroup><col><col><col></colgroup>
+                    <tr><td><img src="./images/Icon_Gnews.png" target="_blank" alt="Logo_gnews"></td><td><a href="https://gnews.io/">API Gnews</a></td><td>Simple News API to search News and Blog Articles.</td></tr>
+                    <tr><td><img src="./images/Icon_Regexr.png" target="_blank" alt="Logo_regexr"></td><td><a href="https://regexr.com/">Regexr/</a></td><td>Regular expression tester with syntax highlighting, PHP / PCRE & JS Support, contextual help, cheat sheet, reference, and searchable community patterns.</td></tr>
+                    <tr><td><img src="./images/Icon_Mdn.png" target="_blank" alt="Logo_mdn"></td><td><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">Regexr</a></td><td>Another reference by MDN, this one is for JavaScript. This is pretty advanced stuff.</td></tr>
+                    <tr><td><img src="./images/Icon_Patterns.png" target="_blank" alt="Logo_patterns"></td><td><a href="https://www.patterns.dev/posts#design-patterns">JavaScript Design Patterns</a></td><td>For more advanced developers: learn all common JavaScript design patterns. Perfect reference.</td></tr>
+                </table>
+                <button type="button" id="button-resources-close"><img src="./images/Button_Close.png" alt="Close Button" class="button-close"></button>
+            </div>
+        </aside>
+
         <main>
+            <header id="header-page">
+                <section>
+                    <div>
+                        <h1>Javascript Sheet Page</h1>
+                        <img src="./images/Logo_JavaScript.png" alt="JavaScript Logo Image" class="page-image">
+                        <div id="header-div-icons">
+                            <button type="button" id="button-resources" class="button-resources">JavaScript Resources</button>
+                        </div>
+                    </div>
+                </section>
+            </header>
             <article>
-                <h1>Javascript Sheet Page</h1>
                 <section>
                     <h4><strong>Variables</strong></h4>
                     <div>
                         <p>These are elements that can vary, which can include variables, data types, and arrays.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Variable</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>var</p> </td><td> <p>The most common variable. Var variables move to the top when code is executed</p> </td></tr>
@@ -64,8 +88,8 @@
                     <h4><strong>Operators</strong></h4>
                     <div>
                         <p>These are single or multiple data values used to produce a result, including Basic Operators, Comparison Operators, Logical Operators, and Bitwise Operators.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Operator</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>(plus sign) +</p> </td><td> <p>Addition</p> </td></tr>
@@ -104,8 +128,8 @@
                     <h4><strong>Functions</strong></h4>
                     <div>
                         <p>These perform a task to produce a related output, including Outputting Data and Global Functions.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Function</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>alert()</p> </td><td> <p>An alert box is displayed with an OK button</p> </td></tr>
@@ -132,8 +156,8 @@
                     <h4><strong>Loops</strong></h4>
                     <div>
                         <p>These occur until certain conditions are met.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Loop</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>for</p> </td><td> <p>The most common way to create a loop in JavaScript</p> </td></tr>
@@ -150,8 +174,8 @@
                     <h4><strong>If - Else Statements</strong></h4>
                     <div>
                         <p>These are designed to run blocks of code if certain conditions are met.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Statement</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>if (condition) {//}</p> </td><td> <p>If a condition is met do this</p> </td></tr>
@@ -165,8 +189,8 @@
                     <h4><strong>Strings</strong></h4>
                     <div>
                         <p>These store text and include escape characters and string methods.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>String</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>\'</p> </td><td> <p>Single quote</p> </td></tr>
@@ -203,8 +227,8 @@
                     <h4><strong>Regular Expressions</strong></h4>
                     <div>
                         <p>These are patterns, including pattern modifiers, brackets, metacharacters, and quantifiers.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Regular Expression</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>e</p> </td><td> <p>Evaluate replacement</p> </td></tr>
@@ -247,8 +271,8 @@
                     <h4><strong>Numbers and Maths</strong></h4>
                     <div>
                         <p>These are mathematical functions, including number properties, number methods, math properties, and math methods.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Value</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>MAX_VALUE</p> </td><td> <p>The maximum numeric value representable in JavaScript</p> </td></tr>
@@ -279,8 +303,8 @@
                     <h4><strong>Dates</strong></h4>
                     <div>
                         <p>These include specific points in time and include setting dates, and pulling date and time values, and set part of a date.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Value</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>tan(x)</p> </td><td> <p>The tangent of an angle</p> </td></tr>
@@ -316,8 +340,8 @@
                     <h4><strong>DOM Node</strong></h4>
                     <div>
                         <p>This allows JavaScript to update the web page and include node properties, node methods, and element methods.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Value</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>attributes</p> </td><td> <p>Returns a live collection of all attributes registered to and element</p> </td></tr>
@@ -373,8 +397,8 @@
                     <h4><strong>Events</strong></h4>
                     <div>
                         <p>These are the updates caused by JavaScript code and include mouse, keyboard, frame, form, drag, clipboard, media, animation, and other.</p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Event</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>onclick</p> </td><td> <p>The event occurs when the user clicks on an element</p> </td></tr>
@@ -455,8 +479,8 @@
                     <h4><strong>Errors</strong></h4>
                     <div>
                         <p></p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Error</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>onmessage</p> </td><td> <p>A message is received through the event source</p> </td></tr>
@@ -492,8 +516,8 @@
                     <h4><strong>Window Properties</strong></h4>
                     <div>
                         <p></p>
-                        <table width="700">
-                            <colgroup><col width="200"><col width="500"></colgroup>
+                        <table>
+                            <colgroup><col><col></colgroup>
                             <tbody>
                                 <tr><th> <p>Window Property</p> </th><th> <p>Description</p> </th></tr>
                                 <tr><td> <p>closed</p> </td><td> <p>Checks whether a window has been closed or not and returns true or false</p> </td></tr>
@@ -550,11 +574,19 @@
                         </table>
                     </div>
                 </section>
-
-                
             </article>
         </main>
 
-        <script src="./js/script.js"></script>
+        <footer>
+            <div id="footer-div-icons">
+                <a href="https://www.linkedin.com/in/daniel-kakiuthi/" target="_blank"><img src="./images/Logo_Linkedin.png" title="Linkedin" alt="Linkedin Logo" class="icon-logo"></a>
+                <a href="https://github.com/danielkakiuthi" target="_blank"><img src="./images/Logo_Github.png" title="Github" alt="Github Logo" class="icon-logo"></a>
+                <a href="https://www.instagram.com/danielkakiuthi" target="_blank"><img src="./images/Logo_Instagram.png" title="Instagram" alt="Instagram Logo" class="icon-logo"></a>
+                <a href="https://www.facebook.com/daniel.kakiuthi" target="_blank"><img src="./images/Logo_Facebook.png" title="Facebook" alt="Facebook Logo" class="icon-logo"></a>
+                <p>Daniel Kakiuthi</p>
+            </div>
+        </footer>
+
+        <script src="./js/script.js" currentHtml="js_sheet_page.html"></script>
     </body>
 </html>
