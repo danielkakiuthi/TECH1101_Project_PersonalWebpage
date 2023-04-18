@@ -269,15 +269,6 @@ footer > div > p {
     margin-left: 10px;
 }
 
-#header-hobbies-page > section > div {
-    background-image: url("../images/Hobbies_Background.jpg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.9;
-    width: var(--innerPage_Width);
-    object-fit: cover;
-}
-
 #resume-image {
     border: 3px white solid;
 }
